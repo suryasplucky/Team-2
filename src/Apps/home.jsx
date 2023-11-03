@@ -1,4 +1,4 @@
-
+ 
 import React, { useState } from 'react';
 import { PlusOutlined } from '@ant-design/icons';
 import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space, message, Modal, Checkbox } from 'antd';
@@ -65,6 +65,11 @@ function Home() {
     //   });
     // };
 
+
+    const showDash =()=>{
+          window.location.href='./dashboard'
+    };
+
     return (
         <div className="outlook-home">
             <div className="login-section">
@@ -81,6 +86,11 @@ function Home() {
             <Button type="primary" onClick={showDrawer} icon={<PlusOutlined />}>
                 New account
             </Button>
+
+            <Button type="primary" onClick={showDash} icon={<PlusOutlined />}>
+                Dashboard
+            </Button>
+
             <Drawer
                 title="Create a new account"
                 width={720}

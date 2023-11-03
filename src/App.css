@@ -13,3 +13,26 @@ height: calc(100% - 73px);
 height: 100%;
 }
 }
+
+
+
+
+
+.parent {
+    width: 100%;
+    overflow: auto;
+}
+
+.siding {
+    float: left;
+    background: blueviolet;
+    width: 20%;
+    height: 100vh;
+}
+
+.Content{
+    float: right;
+    background: yellow;
+    width: 80%;
+    height: 100vh;
+}
