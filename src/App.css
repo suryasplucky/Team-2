@@ -36,3 +36,83 @@ height: 100%;
     width: 80%;
     height: 100vh;
 }
+
+#PassError{
+    color: red; font-weight: 800;
+    font-family: cursive;
+    background-color: antiquewhite;
+    width: 34%;
+}
+
+#UserError{
+    color: red; font-weight: 800;
+    font-family: cursive;
+    background-color: antiquewhite;
+    width: 34%;
+}
+
+#main{
+    width: 100%;
+    overflow: auto;
+}
+#sun1{
+    width: 45%;
+height: 80vh;
+float: left;
+margin: 43px 0px 48px 94px;
+border-radius: 4px;
+background-color: aqua;
+}
+#sun2 {
+width: 44%;
+height: 69vh;
+float: right;
+background-color: blueviolet;
+margin: 78px 69px 72px 0px;
+border-radius: 0px 9px 8px 0px;
+}
+div#Tesctcontenmt {
+color: white;
+width: 54%;
+margin: 107px;
+}
+div#Imagediv {
+width: 37%;
+}
+img#myimg {
+width: 245px;
+height: 79px;
+padding: 25px;
+border-radius: 31px;
+}
+div#Logindiv {
+width: 37%;
+padding: 0px 0px 0px 42px;
+}
+#formDiv{
+width: 83%;
+padding: 0px 0px 0px 45px;
+}
+#subbtn{
+color: white;
+background-color: yellow;
+width: 549px;
+padding: 11px;
+border-radius: 3px;
+border: none;
+font-weight: 900;
+font-size: 19px;
+}
+
+#AnchorDiv{
+    padding: 0px 0px 0px 47px;
+}
+input{
+    padding: 12px; width: 95%;
+}
+#forgot{
+    color: black; text-decoration: none;
+}
+h1{
+    font-weight: 600;
+}
